@@ -1,0 +1,55 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #383434; /* Fondo negro */
+    color: #000000; /* Texto negro */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff; /* Barra nav blanca */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.navbar img {
+    height: 200%; /* Altura del logo */
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.content div {
+    background-color: #ffffff; /* Fondo blanco */
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid #872222; /* Borde rojo */
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: center; /* Centra el contenido dentro de los div */
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Asegura que las imágenes estén centradas correctamente */
+    margin: 0 auto; /* Centra las imágenes horizontalmente */
+}
+
+h2 {
+    font-weight: 700; /* Negrita */
+}
+
+.content p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400; /* Normal */
+}
